@@ -82,7 +82,7 @@ a {
  ---------------------------------------------------------- */
 .colour_border {
   height: 1vh;
-  background-image: linear-gradient(to right, #cf002d 20%, #66ffff 40%, #ffcc33 60%, #0e9029 80%, #ff33ff 100% );
+  background-image: linear-gradient(to right, #CC0033 20%, #66ffff 40%, #ffcc33 60%, #0e9029 80%, #ff33ff 100% );
   width: 100%;
   position: fixed;
   top: 12vh;
@@ -145,8 +145,8 @@ body {
 }
 
 .start_project_top:hover #icon {
-  color: #cf002d;
-  border-color: #cf002d;
+  color: #CC0033;
+  border-color: #CC0033;
 }
 
 
@@ -169,12 +169,13 @@ margin-top: 12vh;
 }
 	
 input[type=submit] {
-    background: #cf002d;
+    background: #CC0033;
     color: white;
     font-size: 1.1em;
     cursor: pointer;
     width: 25vw;
     height: 4em;
+    border: none;
 }
 	
 	
@@ -199,7 +200,7 @@ body {
 
 .start_project_top:hover #icon {
   color: #cf002d;
-  border-color: #cf002d;
+  border-color: #CC0033;
 }
 
 .main {
@@ -223,8 +224,8 @@ margin-top: 5em;
 }
 
 input[type=submit] {
-    background-color: #cf002d;
-    background: #cf002d;
+    background-color: #CC0033;
+    background: #CC0033;
     color: white;
     font-size: 1.1em;
     border: none;
@@ -239,8 +240,8 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: white;
     background: white;
-    color: #cf002d;
-    border: 1px solid #cf002d;
+    color: #CC0033;
+    border: 1px solid #CC0033;
 }
 	
 	
@@ -265,7 +266,7 @@ body {
 
 .start_project_top:hover #icon {
   color: #cf002d;
-  border-color: #cf002d;
+  border-color: #CC0033;
 }
 
 .main {
@@ -289,8 +290,8 @@ margin-top: 5.5em;
 
 	
 input[type=submit], .button {
-    background-color: #cf002d;
-    background: #cf002d;
+    background-color: #CC0033;
+    background: #CC0033;
     color: white;
     font-size: 1.1em;
     border: none;
@@ -305,8 +306,8 @@ input[type=submit], .button {
 input[type=submit]:hover {
     background-color: white;
     background: white;
-    color: #cf002d;
-    border: 1px solid #cf002d;
+    color: #CC0033;
+    border: 1px solid #CC0033;
 }
 	
 	
@@ -348,7 +349,7 @@ input[type=text], select, textarea {
 textarea { height:8em;}
 
 input[type=text]:focus, select:focus, textarea:focus {
-  border: 3px solid #cf002d;
+  border: 3px solid #CC0033;
 }
 
 .spacing {
@@ -365,4 +366,4 @@ height: 5vh;
 
 
 
-.red { color: #cf002d; }
+.red { color: #CC0033; }
