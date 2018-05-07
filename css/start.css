@@ -168,8 +168,7 @@ margin-top: 12vh;
 	font-size: 2vw;
 }
 	
-input[type=submit] {
-    background-color: #cf002d;
+input[type=submit], .button {
     background: #cf002d;
     color: white;
     font-size: 1.1em;
