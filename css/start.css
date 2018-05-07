@@ -168,14 +168,14 @@ margin-top: 12vh;
 	font-size: 2vw;
 }
 	
-input[type=submit], .button {
-    background: #cf002d;
+input[type=submit] {
+    background: black;
     color: white;
     font-size: 1.1em;
     cursor: pointer;
     width: 25vw;
     height: 4em;
-    border: none;
+    border: white;
     border-radius: 1px;
 }
 	
