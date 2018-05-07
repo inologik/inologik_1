@@ -169,13 +169,13 @@ margin-top: 12vh;
 }
 	
 input[type=submit] {
-    background: #CC0033;
-    color: white;
+    background: white;
+    color: black;
     font-size: 1.1em;
     cursor: pointer;
     width: 25vw;
     height: 4em;
-    border: none;
+    border: 1px solid #CC0033;
 }
 	
 	
