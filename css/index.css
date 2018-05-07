@@ -13,7 +13,7 @@ body {
   text-align: center;
   background-image: url("lightbulb_smaller2.png");
   background-repeat: no-repeat;
-  background-attachment: absolute;
+  background-attachment: relative;
   overflow-x: hidden;
   width: 100vw;
   }
@@ -172,6 +172,7 @@ body {
   -moz-background-size: 95vw;
   -webkit-background-size: 95vw;
   background-position: center -2.5vw;
+  overflow-x: hidden;
 
 }
 
