@@ -267,7 +267,7 @@ margin-top: 7vh;
 }
 
 .box_1, .box_2, .box_3 {
-	width: 25vw;
+	width: 35vw;
 	height: 25vw;
 	margin-top: 7.5vh;
 	margin-bottom: 5vh;
@@ -275,7 +275,7 @@ margin-top: 7vh;
 	text-align: center;
 	line-height: 19vw;
 	vertical-align: middle;
-	font-size: 2.2vw;
+	font-size: 2.5vw;
 	color: white;
 	padding: 0 1vw 0 1vw;
 }
