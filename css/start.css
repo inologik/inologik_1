@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  overflow-x: hidden;
+}
+
+/* -----------------------------------------------------------
+ TOP NAV STYLING
+ ---------------------------------------------------------- */
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+  height: 12vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 500
+}
+
+.topnav .Logo {
+  float: left;
+  top: -2vh;
+  left: 3vw; 
+  height: 18vh;
+  position: absolute;
+  display: block;
+}
+
+.topnav i {
+  top: 2vh;
+  right: 10vw; 
+  font-size: 5vh;
+  position: absolute;
+  padding: 1vh;
+	border-style: solid;
+	border-color: rgba(0,0,0,1);
+	border-width: 4px;
+	display: block;
+}
+
+.top {
+padding-bottom: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.start_project_top {
+  position: static;
+  width: 15.5%;
+  height: 11vh;
+  float: right;
+  padding: 1vh;
+}
+
+
+.mail_filler {
+	position: absolute;
+	background-color: white;
+	height: 12vh;
+	z-index: 50;
+	top: 0;
+}
+
+/* -----------------------------------------------------------
+ COLOUR BORDER
+ ---------------------------------------------------------- */
+.colour_border {
+  height: 1vh;
+  background-image: linear-gradient(to right, #cf002d 20%, #66ffff 40%, #ffcc33 60%, #0e9029 80%, #ff33ff 100% );
+  width: 100%;
+  position: fixed;
+  top: 12vh;
+  z-index: 500
+}
+
+
+/* -----------------------------------------------------------
+ CONTENT
+ ---------------------------------------------------------- */
+
+.header {
+	position: relative;
+	margin-left: 10vw;
+	min-width: 300px;
+	display: block;
+	text-align: left;
+}
+
+.secondary {
+	position: relative;
+	margin-left: 10vw;
+	min-width: 300px;
+	display: block;
+	text-align: left;
+}
+
+.tertiary {
+	position: relative;
+	margin-left: 10vw;
+	min-width: 150px;
+	width: 75vw;
+	display: block;
+	text-align: justify;
+}
+
+
+
+/* -----------------------------------------------------------
+ RESPONSIVE CODING
+ ---------------------------------------------------------- */
+
+
+/* Small Size: */
+@media only screen and (max-width: 750px) {
+body {
+  background-size: 95vw;
+  -ms-background-size: 95vw;
+  -o-background-size: 95vw;
+  -moz-background-size: 95vw;
+  -webkit-background-size: 95vw;
+  background-position: center -2.5vw;
+
+}
+
+.mail_filler {
+	right: 20vw;
+	width: 35vw;
+	visibility: hidden;
+}
+
+.start_project_top:hover #icon {
+  color: #cf002d;
+  border-color: #cf002d;
+}
+
+
+.main {
+margin-top: 12vh;
+}
+
+.header {
+	font-size: 3.25vw;
+	width: 60vw;
+	line-height: 1.75vw;
+}
+
+.secondary {
+	font-size: 2.5vw;
+}
+
+.tertiary {
+	font-size: 2vw;
+}
+
+}
+
+/* Medium Size : */
+@media only screen and (min-width: 750px) {
+body {
+  background-size: 750px;
+  -ms-background-size: 750px;
+  -o-background-size: 750px;
+  -moz-background-size: 750px;
+  -webkit-background-size: 750px;
+  background-position: center -10vh;
+}
+
+.mail_filler {
+	right: 20vw;
+	width: 35vw;
+}
+
+.start_project_top:hover #icon {
+  color: #cf002d;
+  border-color: #cf002d;
+}
+
+.main {
+margin-top: 5em;
+}
+
+
+.header {
+	font-size: 1.5em;
+	width: 100vw;
+	line-height: 1em;
+}
+
+.secondary {
+	font-size: 1.15em;
+	width: 100vw;
+}
+
+.tertiary {
+	font-size: 0.9em;
+}
+
+
+}
+
+/* Large Size : */
+@media only screen and (min-width: 1000px) {
+body {
+  background-size: 750px;
+  -ms-background-size: 750px;
+  -o-background-size: 750px;
+  -moz-background-size: 750px;
+  -webkit-background-size: 750px;
+  background-position: center -10vh;
+}
+
+.mail_filler {
+	right: 17.5vw;
+	width: 35vw;
+}
+
+.start_project_top:hover #icon {
+  color: #cf002d;
+  border-color: #cf002d;
+}
+
+.main {
+margin-top: 5.5em;
+}
+
+.header {
+	font-size: 1.5em;
+	width: 100vw;
+	line-height: 1.25em;
+}
+
+.secondary {
+	font-size: 1.15em;
+	width: 100vw;
+}
+
+.tertiary {
+	font-size: 0.9em;
+}
+
+
+
+}
+
+
+
+
+
+.form_div {
+	position: relative;
+	margin-left: 10vw;
+	min-width: 300px;
+	display: block;
+	text-align: left;
+	margin-top: 5vh;
+}
+
+.form_div label {
+	font-size: 1.1em;
+}
+
+input[type=text], select, textarea {
+	
+    width: 75vw;
+	display: block;
+    padding: 12px 20px;
+    margin: 1.5vh 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+	height: 4.25em;
+    outline: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+textarea { height:8em;}
+
+input[type=text]:focus, select:focus, textarea:focus {
+  border: 3px solid #cf002d;
+  /* border-image-source: linear-gradient(to right, #cf002d 20%, #66ffff 40%, #ffcc33 60%, #0e9029 80%, #ff33ff 100% );
+  border-width: 4px;
+  border-image-slice: 1; */
+}
+
+.spacing {
+position: relative;
+width: 100vw;
+height: 3vh;
+}
+
+.button_spacing {
+position: relative;
+width: 100vw;
+height: 5vh;
+}
+
+input[type=submit] {
+	background-color: #cf002d;
+    color: white;
+	font-size: 1.1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25vw;
+	height: 4em;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #cf002d;
+	border: 3px solid #cf002d;
+}
+
+.red { color: #cf002d; }

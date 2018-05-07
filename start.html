@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Inologik | Business Development</title>
+<meta name="description" content="Grow your business with the data experts. Opportunity starts here - start your project. Let's make something great together.">
+<link rel="canonical" href="http://www.inologik.co/start/"/>
+<meta name="keywords" content="start, project, business, company, website, development, consultants, consultancy, growth, help, advice, develop, professional, inologik, start, up, innovative, logic, inologic, innologic, innologik, isle of man, united kingdom">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/start.css">
+</head>
+<body>
+<!-- ---------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------- -->
+
+<div class="top">
+	<div class="topnav">
+	<img class="Logo" src="logo_name3.png" alt="Inologik"/>
+		
+		<div class="mail_filler">&nbsp;</div>
+		<div class="start_project_top">
+
+			<a href="index.html">
+				<i class="fa fa-home" id="icon"></i>
+			</a>
+		</div>
+		
+		
+	</div>
+
+	<div class="colour_border">
+	<!-- no content -->
+	</div>
+</div> 
+
+<div class="main">
+	<div class="header">
+	<h1>Start a project</h1>
+	</div>
+	
+	<div class="secondary">
+	<h3>
+	Let's make something <span class="red">great</span> together. 
+	</h3>
+	</div>
+	
+	<div class="tertiary">
+	<p>Use the form below to provide your information and how we can help. 
+	We will then get in touch to learn more about you and the lightbulb moment
+	you're looking for.</p>
+	</div>
+	
+
+	
+	<?php 
+	if(isset($_POST['submit'])){
+		$to = "david.r.mcghee1@gmail.com"; // this is your Email address
+		$from = $_POST['email']; // this is the sender's Email address
+		$name = $_POST['name'];
+		$last_name = $_POST['last_name'];
+		$subject = "Form submission";
+		$subject2 = "Copy of your form submission";
+		$message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
+		$message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+
+		$headers = "From:" . $from;
+		$headers2 = "From:" . $to;
+		mail($to,$subject,$message,$headers);
+		mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+		echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+		// You can also use header('Location: thank_you.php'); to redirect to another page.
+		}
+	?>
+	
+	
+	<div class="form_div" >
+	<form name="contactform" method="POST" action="https://formspree.io/inologik@gmail.com">
+		<label for="name">Name *</label>
+		<input type="text" id="name" name="name" placeholder="Your name" required>
+		
+		<div class="spacing"></div>
+			
+		<label for="company">Company</label>
+		<input type="text" id="company" name="company" placeholder="Your company name">
+		
+		<div class="spacing"></div>
+			
+		<label for="email">Email *</label>
+		<input type="text" id="email" name="email" placeholder="Your email address" required>
+		
+		<div class="spacing"></div>
+			
+		<label for="phone">Phone</label>
+		<input type="text" id="phone" name="phone" placeholder="Your mobile or landline number">
+		
+		<div class="spacing"></div>
+			
+		<label for="website">Website</label>
+		<input type="text" id="website" name="website" placeholder="Your website">
+		
+		<div class="spacing"></div>
+			
+		<label for="country">Country</label>
+		<input type="text" id="country" name="country" placeholder="Your country">
+		
+		<div class="spacing"></div>
+		
+		<label for="project">Type of Project *</label>
+		<select id="project" name="project" required>
+			<option value="" hidden>What type of project is this?</option>
+			<option value="WebDesign">Web Design</option>
+			<option value="Development">Development</option>
+			<option value="Other">Other</option>
+		</select>
+	
+		<div class="spacing"></div>
+			
+		<label for="subject">About the Project</label>
+	    <textarea id="subject" name="subject" placeholder="Describe the project, requirements and objectives."></textarea>
+	
+		<div class="spacing"></div>
+		
+		<label for="timeframe">Timeframe *</label>
+		<select id="timeframe" name="timeframe">
+			<option value="" hidden>What is the project deadline?</option>
+			<option value="2-4weeks">2 to 4 weeks</option>
+			<option value="4-6weeks">4 to 6 weeks</option>
+			<option value="6-12weeks">6 to 12 weeks</option>
+			<option value="12-24weeks">12 to 24 weeks</option>
+			<option value="NotFixed">Not fixed</option>
+		</select>
+		
+		<div class="spacing"></div>
+		
+		<label for="budget">Budget</label>
+		<select id="budget" name="budget">
+			<option value="" hidden>What is your budget?</option>		
+			<option value="<500">Less than &pound;500</option>
+			<option value="500-2,000">&pound;500 to &pound;2,000</option>
+			<option value="2,000-5,000">&pound;2,000 to &pound;5,000</option>
+			<option value="5,000-10,000">&pound;5,000 to &pound;10,000</option>
+			<option value="10,000-25,000">&pound;10,000 to &pound;25,000</option>
+			<option value=">25,000">More than &pound;25,000</option>
+			
+		</select>
+		
+		<div class="button_spacing"></div>
+		
+		<div class="button_spacing"></div>
+		<input type="submit" value="Submit">
+		
+	</form>
+	</div>
+	
+	
+	
+	
+</div>
+
+<br>
+
+
+</body>
+
+
+</html>
+
