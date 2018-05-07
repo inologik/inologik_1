@@ -168,8 +168,9 @@ margin-top: 12vh;
 	font-size: 2vw;
 }
 	
-input[type=submit], .button {
+input[type=submit] {
     background-color: #cf002d;
+    background: #cf002d;
     color: white;
     font-size: 1.1em;
     cursor: pointer;
@@ -226,6 +227,7 @@ margin-top: 5em;
 
 input[type=submit] {
     background-color: #cf002d;
+    background: #cf002d;
     color: white;
     font-size: 1.1em;
     border: none;
@@ -239,6 +241,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: white;
+    background: white;
     color: #cf002d;
     border: 1px solid #cf002d;
 }
@@ -290,6 +293,7 @@ margin-top: 5.5em;
 	
 input[type=submit], .button {
     background-color: #cf002d;
+    background: #cf002d;
     color: white;
     font-size: 1.1em;
     border: none;
@@ -303,6 +307,7 @@ input[type=submit], .button {
 
 input[type=submit]:hover {
     background-color: white;
+    background: white;
     color: #cf002d;
     border: 1px solid #cf002d;
 }
