@@ -286,9 +286,6 @@ textarea { height:8em;}
 
 input[type=text]:focus, select:focus, textarea:focus {
   border: 3px solid #cf002d;
-  /* border-image-source: linear-gradient(to right, #cf002d 20%, #66ffff 40%, #ffcc33 60%, #0e9029 80%, #ff33ff 100% );
-  border-width: 4px;
-  border-image-slice: 1; */
 }
 
 .spacing {
@@ -304,11 +301,11 @@ height: 5vh;
 }
 
 input[type=submit] {
-	background-color: #cf002d;
+    background-color: #cf002d;
     color: white;
-	font-size: 1.1em;
+    font-size: 1.1em;
     border: none;
-    border-radius: 4px;
+    border-radius: 1px;
     cursor: pointer;
 	width: 25vw;
 	height: 4em;
@@ -319,7 +316,7 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: white;
     color: #cf002d;
-	border: 3px solid #cf002d;
+    border: 1px solid #cf002d;
 }
 
 .red { color: #cf002d; }
