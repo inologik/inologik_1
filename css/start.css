@@ -163,6 +163,7 @@ margin-top: 12vh;
 	
 input[type=text]:focus, select:focus, textarea:focus {
 	font-size: 16px;
+	color: red;
 	}
 
 }
