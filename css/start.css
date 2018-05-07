@@ -165,8 +165,6 @@ input[type=submit] {
     background-color: #cf002d;
     color: white;
     font-size: 1.1em;
-    border: none;
-    border-radius: 1px;
     cursor: pointer;
     width: 25vw;
     height: 4em;
