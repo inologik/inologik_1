@@ -160,6 +160,10 @@ margin-top: 12vh;
 .tertiary {
 	font-size: 2vw;
 }
+	
+input[type=text]:focus, select:focus, textarea:focus {
+	font-size: 16px;
+	}
 
 }
 
