@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
+html { 
+  width: 100vw; 
+  overflow-x: hidden;
+}
 
 body {
   font-family: 'Lato', sans-serif;
@@ -9,7 +13,7 @@ body {
   text-align: center;
   background-image: url("lightbulb_smaller2.png");
   background-repeat: no-repeat;
-  background-attachment: relative;
+  background-attachment: absolute;
   overflow-x: hidden;
   width: 100vw;
   }
